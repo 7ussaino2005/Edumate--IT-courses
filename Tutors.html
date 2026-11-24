@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Edumate - IT Courses</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Edumate- IT Courses</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+				<li><a href="Courses.html"> Courses</a></li>
+				<li><a href="Tutors.html"> Tutors</a></li>
+				<li><a href="Cart.html"> Cart</a></li>
+				<li><a href="our story.html">Our story</a></li>
+				<li><a href="Making of.html">Making of</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content">
+   <h2 id="greeting" class="greeting-title"></h2>
+
+    <div class="major-section">
+      <h2 class="major-title">Cybersecurity</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor1.jpg" alt="Tutor 1">
+          <h3 class="tutor-name">Cole Palmer</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Cole Palmer', 29.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor2.jpg" alt="Tutor 2">
+          <h3 class="tutor-name">Steven Rolls</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Steven Rolls', 29.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor3.jpg" alt="Tutor 3">
+          <h3 class="tutor-name">Imran Salman</h3>
+          <p class="tutor-price">$25.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Imran Salman', 25.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor4.jpg" alt="Tutor 4">
+          <h3 class="tutor-name">Rashid Ali</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Rashid Ali', 34.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="major-section">
+      <h2 class="major-title">Programming</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor5.jpg" alt="Tutor 5">
+          <h3 class="tutor-name">Mayar Salman</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Mayar Salman', 29.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor6.jpg" alt="Tutor 6">
+          <h3 class="tutor-name">Jumana Khan</h3>
+          <p class="tutor-price">$35.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Jumana Khan', 35.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor7.jpg" alt="Tutor 7">
+          <h3 class="tutor-name">Jenna Aldemir</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Jenna Aldemir', 34.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor8.jpg" alt="Tutor 8">
+          <h3 class="tutor-name">Michale Dallon</h3>
+          <p class="tutor-price">$31.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Michale Dallon', 31.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="major-section">
+      <h2 class="major-title">Database Systems</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor9.jpg" alt="Tutor 9">
+          <h3 class="tutor-name">Yasmin Abdulaziz</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Yasmin Abdulaziz', 34.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor10.jpg" alt="Tutor 10">
+          <h3 class="tutor-name">Mariam Saud</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Mariam Saud', 34.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor11.jpg" alt="Tutor 11">
+          <h3 class="tutor-name">Daniel Radiger</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Daniel Radiger', 29.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor12.jpg" alt="Tutor 12">
+          <h3 class="tutor-name">Maria Ahmed</h3>
+          <p class="tutor-price">$32.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Maria Ahmed', 32.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="major-section">
+      <h2 class="major-title">Networks and Data Communication</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor13.jpg" alt="Tutor 13">
+          <h3 class="tutor-name">Masaoud Alanazi</h3>
+          <p class="tutor-price">$37.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Masaoud Alanazi', 37.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor14.jpg" alt="Tutor 14">
+          <h3 class="tutor-name">Jassim Omran</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Jassim Omran', 29.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor15.jpg" alt="Tutor 15">
+          <h3 class="tutor-name">Yousif Golden</h3>
+          <p class="tutor-price">$39.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Yousif Golden', 39.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor16.jpg" alt="Tutor 16">
+          <h3 class="tutor-name">Komar Retrad</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Komar Retrad', 29.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="major-section">
+      <h2 class="major-title">Artificial Intelligence</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor17.jpg" alt="Tutor 17">
+          <h3 class="tutor-name">Simon Hildon</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Simon Hildon', 29.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor18.jpg" alt="Tutor 18">
+          <h3 class="tutor-name">Daniel Sheldon</h3>
+          <p class="tutor-price">$32.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Daniel Sheldon', 32.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor19.jpg" alt="Tutor 19">
+          <h3 class="tutor-name">John Aldemir</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('John Aldemir', 34.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor20.jpg" alt="Tutor 20">
+          <h3 class="tutor-name">Alina Odion</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Alina Odion', 34.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="major-section">
+      <h2 class="major-title">Web Development</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor21.jpg" alt="Tutor 21">
+          <h3 class="tutor-name">Angila Sheldon</h3>
+          <p class="tutor-price">$34.50 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Angila Sheldon', 34.50)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor22.jpg" alt="Tutor 22">
+          <h3 class="tutor-name">Suzan Radiqa</h3>
+          <p class="tutor-price">$34.50 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Suzan Radiqa', 34.50)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor23.jpg" alt="Tutor 23">
+          <h3 class="tutor-name">Frank Calleron</h3>
+          <p class="tutor-price">$33.50 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Frank Calleron', 33.50)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor24.jpg" alt="Tutor 24">
+          <h3 class="tutor-name">Zaher Haider</h3>
+          <p class="tutor-price">$34.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Zaher Haider', 34.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="major-section">
+      <h2 class="major-title">MIS - Management Information System</h2>
+      <div class="tutors-container">
+
+        <div class="tutor-card">
+          <img src="images/tutor25.jpg" alt="Tutor 25">
+          <h3 class="tutor-name">Alison Baker</h3>
+          <p class="tutor-price">$15.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Alison Baker', 15.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor26.jpg" alt="Tutor 26">
+          <h3 class="tutor-name">Jamal Karim</h3>
+          <p class="tutor-price">$19.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Jamal Karim', 19.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor27.jpg" alt="Tutor 27">
+          <h3 class="tutor-name">John Marks</h3>
+          <p class="tutor-price">$20.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('John Aldemir', 20.99)">Subscribe</button>
+        </div>
+
+        <div class="tutor-card">
+          <img src="images/tutor28.jpg" alt="Tutor 28">
+          <h3 class="tutor-name">Amanda Hallway</h3>
+          <p class="tutor-price">$29.99 BHD / monthly</p>
+          <button class="subscribe-btn" onclick="subscribeTutor('Amanda Hallway', 29.99)">Subscribe</button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+	<script src="script.js"></script>
+  <footer>
+    <p class="foot-note">Edumate - IT Courses @ 2025. All rights reserved.</p>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="mailto:202300064@student.polytechnic.bh">Hussain Alaskari</a></li>
+        <li><a href="mailto:202203202@student.polytechnic.bh">Khaled Abdulla</a></li>
+        <li><a href="mailto:202304468@student.polytechnic.bh">Ali Almeshal</a></li>
+        <li><a href="mailto:202304668@student.polytechnic.bh">Sayed Hussain Hashem</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
